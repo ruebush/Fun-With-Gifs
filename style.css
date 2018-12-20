@@ -1,0 +1,48 @@
+body{
+	background: black;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 200px;
+    width: 200px;
+}
+.btn {
+    /* button spacing*/
+    font-family: 'Merriweather', serif;
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+.gifDiv{
+    /* lining up images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	background-color: #fff;
+	padding: 15px;
+}
+.jumbotron {
+    font-family: 'Staatliches', cursive;
+    background-color: white;
+}
+.jumbotron .h1, .jumbotron h1, h2, p {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: red;
+}
+
+#copyright{
+    font-family: 'Merriweather', serif;
+	font-size: 10px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
